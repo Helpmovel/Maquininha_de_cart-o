@@ -28,7 +28,7 @@ h1 {
 }
 
 .video-button {
-    background-color: #0066cc;
+    background-color: #3498db;
     color: #fff;
     border: none;
     padding: 15px;
@@ -40,5 +40,5 @@ h1 {
 }
 
 .video-button:hover {
-    background-color: #004080;
+    background-color: #2980b9;
 }
