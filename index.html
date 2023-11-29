@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Maquininha de cartão Videos </title>
+    <title>Maquininha de cartão Videos</title>
 </head>
 <body>
 
     <div class="container">
         <h1>Maquininha de cartão Videos</h1>
         <ul class="video-list">
-            <li><a href="https://clipchamp.com/watch/xpewzhpszei" target="_blank">Como ligar e desligar a maquininha
-</a></li>
-            <li><a href="https://clipchamp.com/watch/k5mwbpnre0F" target="_blank">Crédito ou débito</a></li>
-            <li><a href="https://clipchamp.com/watch/5oUfgeL4qwv" target="_blank">Como usar pagamento por aproximação</a></li>
-            <li><a href="https://clipchamp.com/watch/ZaH1UHH05iC" target="_blank">Como trocar a bobina</a></li>
-            <!-- Adicione mais links conforme necessário -->
+            <li><button class="video-button" onclick="openLink('https://clipchamp.com/watch/xpewzhpszei')">Como ligar e desligar a maquininha</button></li>
+            <li><button class="video-button" onclick="openLink('https://clipchamp.com/watch/k5mwbpnre0F')">Crédito ou débito</button></li>
+            <li><button class="video-button" onclick="openLink('https://clipchamp.com/watch/5oUfgeL4qwv')">Como usar pagamento por aproximação</button></li>
+            <li><button class="video-button" onclick="openLink('https://clipchamp.com/watch/ZaH1UHH05iC')">Como trocar a bobina</button></li>
+            <!-- Adicione mais botões conforme necessário -->
         </ul>
     </div>
+
+    <script>
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+    </script>
 
 </body>
 </html>
