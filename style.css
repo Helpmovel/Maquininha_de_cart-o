@@ -1,53 +1,39 @@
-/* Reset de estilos padrão para garantir consistência entre navegadores */
-body, h1, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilo para o corpo da página */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     color: #333;
 }
 
-/* Estilo para o container principal */
 .container {
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
 }
 
-/* Estilo para o título principal */
 h1 {
     color: #0066cc;
     margin-bottom: 20px;
 }
 
-/* Estilo para a lista de vídeos */
 .video-list {
     list-style: none;
+    padding: 0;
 }
 
-/* Estilo para os itens da lista de vídeos */
 .video-list li {
     margin-bottom: 15px;
 }
 
-/* Estilo para os links dos vídeos */
-.video-list a {
-    text-decoration: none;
-    color: #333;
-    display: block;
+.video-button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
     padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #fff;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-/* Efeito de hover nos links dos vídeos */
-.video-list a:hover {
-    background-color: #0066cc;
-    color: #fff;
+.video-button:hover {
+    background-color: #004080;
 }
